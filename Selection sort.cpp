@@ -15,7 +15,7 @@ for (int i=0; i<=9; i++){
             maximum=tab[i+j];
             position=i+j;}
     }
-    swap (tab[i], tab [position]);
+    swap (tab[i], tab[position]);
 }
 for (int i=0; i<=9; i++){
     cout<<tab[i]<<endl;
